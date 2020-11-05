@@ -20,4 +20,28 @@
   background-color: #eee;
   border: 1px solid #fff;
   display: inline-block;
+  position: relative;
+}
+
+.sconto{
+  background-color: green;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.cuore-container{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom:0;
+
+}
+
+.cuoricino{
+  display: none;
+}
+
+.box:hover .cuoricino{
+  display: block;
 }
