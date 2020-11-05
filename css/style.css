@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;;
+  margin:0;
+  padding:0;
+
+}
+
+.container{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.row{
+  height: 400px;
+
+}
+
+.box{
+  width: 33%;
+  background-color: #eee;
+  border: 1px solid #fff;
+  display: inline-block;
+}
